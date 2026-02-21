@@ -8,16 +8,15 @@
 - git checkout -b xxx(new branch name)
 
 3. work on your feature or bug fix
-4. commit your changes: 
+4. once code finished, ensure latest code is embedded in your branch
+- git merge origin/main
+5. commit your changes: 
 - git add . 
 - git commit -m "xxx"
 - git push
-
-5. once code finished, ensure latest code is embedded in your branch
-- git merge origin/main
 6. create a pull request (PR) to merge your branch into main branch
 7. ask teammate to review and merge your PR
-
+8. Ensure testing ok
 
 # Getting Started with Create React App
 
